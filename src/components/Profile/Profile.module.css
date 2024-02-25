@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: var(--shadow-regular);
+  border-radius: 8px;
+  background-color: var(--color-white);
+  border: 2px solid black;
+}
+
+.profileInfo {
+  text-align: center;
+  padding: 15px
+}
+
+.profileInfo>img {
+  border-radius: 50%;
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid #c3c3c3;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px auto 10px;
+}
+
+.tag {
+  font-size: 25px;
+  margin: 0 auto 5px;
+  color: #989898;
+}
+
+.location {
+  font-size: 25px;
+  margin: 0 auto 5px;
+  color: #989898;
+}
+
+.stats {
+  background-color: #bdbdbd;
+  border-top: 2px solid #989898;
+}
+
+.title {
+  font-size: 21px;
+  color: black;
+  font-weight: 500;
+}
+
+.counter {
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+}
+
+.stats>li {
+  display: inline-block;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.stats>li span {
+  display: block
+}
+
+.stats>li:not(:last-child) {
+  border-right: 2px solid #989898;
+}

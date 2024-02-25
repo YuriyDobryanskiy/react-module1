@@ -1,0 +1,17 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cards li {
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
